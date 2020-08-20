@@ -27,28 +27,32 @@ export const Affiliation = ({ affiliationName }) => {
                 <h3 class="subtitle">
                   <a href={`/position/${pos}`}>{pos}</a>
                 </h3>
-                <table class="table is-bordered is-fullwidth">
-                  <thead>
-                    <tr>
-                      <th>Player</th>
-                      <th>Team</th>
-                      <th>Points</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {result[i].map((p) => (
+                <div class="table-container">
+                  <table class="table is-bordered is-fullwidth">
+                    <thead>
                       <tr>
-                        <td>
-                          <a href={`/player/${p.id}`}>{p.id}</a>
-                        </td>
-                        <td>
-                          <a href={`/team/${p.player.team}`}>{p.player.team}</a>
-                        </td>
-                        <td>{p.value.points}</td>
+                        <th>Player</th>
+                        <th>Team</th>
+                        <th>Points</th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
+                    </thead>
+                    <tbody>
+                      {result[i].map((p) => (
+                        <tr>
+                          <td>
+                            <a href={`/player/${p.id}`}>{p.id}</a>
+                          </td>
+                          <td>
+                            <a href={`/team/${p.player.team}`}>
+                              {p.player.team}
+                            </a>
+                          </td>
+                          <td>{p.value.points}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               </div>
             ))}
           </div>

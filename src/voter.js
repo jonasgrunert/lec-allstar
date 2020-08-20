@@ -34,19 +34,21 @@ export const Voter = ({ voterName }) => {
             {[1, 2, 3].map((p) => (
               <div class="column has-text-centered">
                 <h3 class="subtitle">#{p}</h3>
-                <table class="table is-bordered is-fullwidth">
-                  <tbody>
-                    {["Top", "Jungle", "Mid", "ADC", "Support"].map((pos) => (
-                      <tr>
-                        <td>
-                          <a href={`/player/${votes[`#${p} ${pos}`]}`}>
-                            {votes[`#${p} ${pos}`]}
-                          </a>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                <div class="table-container">
+                  <table class="table is-bordered is-fullwidth">
+                    <tbody>
+                      {["Top", "Jungle", "Mid", "ADC", "Support"].map((pos) => (
+                        <tr>
+                          <td>
+                            <a href={`/player/${votes[`#${p} ${pos}`]}`}>
+                              {votes[`#${p} ${pos}`]}
+                            </a>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               </div>
             ))}
           </div>

@@ -120,22 +120,24 @@ export const Home = () => {
           {[1, 2, 3].map((p) => (
             <div class="column has-text-centered">
               <h3 class="subtitle">#{p}</h3>
-              <table class="table is-fullwidth has-text-white has-background-dark">
-                <tbody>
-                  {[0, 1, 2, 3, 4].map((pos) => (
-                    <tr>
-                      <td>
-                        <a
-                          href={`/player/${votes[pos][p - 1].id}`}
-                          class="has-text-white"
-                        >
-                          {votes[pos][p].id}
-                        </a>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div class="table-container">
+                <table class="table is-fullwidth has-text-white has-background-dark">
+                  <tbody>
+                    {[0, 1, 2, 3, 4].map((pos) => (
+                      <tr>
+                        <td>
+                          <a
+                            href={`/player/${votes[pos][p - 1].id}`}
+                            class="has-text-white"
+                          >
+                            {votes[pos][p].id}
+                          </a>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           ))}
         </div>

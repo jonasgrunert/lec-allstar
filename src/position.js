@@ -23,66 +23,70 @@ export const Position = ({ pos }) => {
         <div class="container">
           <div class="columns">
             <div class="column has-text-centered">
-              <table class="table is-striped is-hoverable is-fullwidth">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>
-                      <button class="button is-text">Team</button>
-                    </th>
-                    <th>
-                      <button
-                        class="button is-text"
-                        onClick={() => changeSort("first")}
-                      >
-                        First
-                      </button>
-                    </th>
-                    <th>
-                      <button
-                        class="button is-text"
-                        onClick={() => changeSort("second")}
-                      >
-                        Second
-                      </button>
-                    </th>
-                    <th>
-                      <button
-                        class="button is-text"
-                        onClick={() => changeSort("third")}
-                      >
-                        Third
-                      </button>
-                    </th>
-                    <th>
-                      <button
-                        class="button is-text"
-                        onClick={() => changeSort("points")}
-                      >
-                        Points
-                      </button>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {result
-                    .sort((a, b) => b.value[sortedBy] - a.value[sortedBy])
-                    .map((d) => (
-                      <tr>
-                        <th>
-                          <a href={`/player/${d.id}`}>{d.id}</a>
-                        </th>
-                        <td>
-                          <a href={`/team/${d.player.team}`}>{d.player.team}</a>
-                        </td>
-                        <td>{d.value.first}</td>
-                        <td>{d.value.second}</td>
-                        <td>{d.value.third}</td>
-                        <th>{d.value.points}</th>
-                      </tr>
-                    ))}
-                </tbody>
-              </table>
+              <div class="table-container">
+                <table class="table is-striped is-hoverable is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>
+                        <button class="button is-text">Team</button>
+                      </th>
+                      <th>
+                        <button
+                          class="button is-text"
+                          onClick={() => changeSort("first")}
+                        >
+                          First
+                        </button>
+                      </th>
+                      <th>
+                        <button
+                          class="button is-text"
+                          onClick={() => changeSort("second")}
+                        >
+                          Second
+                        </button>
+                      </th>
+                      <th>
+                        <button
+                          class="button is-text"
+                          onClick={() => changeSort("third")}
+                        >
+                          Third
+                        </button>
+                      </th>
+                      <th>
+                        <button
+                          class="button is-text"
+                          onClick={() => changeSort("points")}
+                        >
+                          Points
+                        </button>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {result
+                      .sort((a, b) => b.value[sortedBy] - a.value[sortedBy])
+                      .map((d) => (
+                        <tr>
+                          <th>
+                            <a href={`/player/${d.id}`}>{d.id}</a>
+                          </th>
+                          <td>
+                            <a href={`/team/${d.player.team}`}>
+                              {d.player.team}
+                            </a>
+                          </td>
+                          <td>{d.value.first}</td>
+                          <td>{d.value.second}</td>
+                          <td>{d.value.third}</td>
+                          <th>{d.value.points}</th>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
             <div class="column has-text-centered">
               <Bar
