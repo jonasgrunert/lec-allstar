@@ -1,0 +1,352 @@
+{
+  "Abbedagge": {
+    "player": "Abbedagge",
+    "team": "FC Schalke 04 Esports",
+    "role": "Mid",
+    "name": "Felix Braun",
+    "country": "Germany"
+  },
+  "Alphari": {
+    "player": "Alphari",
+    "team": "Origen",
+    "role": "Top",
+    "name": "Barney Morris",
+    "country": "United Kingdom"
+  },
+  "Bwipo": {
+    "player": "Bwipo",
+    "team": "Fnatic",
+    "role": "Top",
+    "name": "Gabriël Rau",
+    "country": "Belgium"
+  },
+  "Cabochard": {
+    "player": "Cabochard",
+    "team": "Team Vitality",
+    "role": "Top",
+    "name": "Lucas Simon-Meslet",
+    "country": "France"
+  },
+  "Caedrel": {
+    "player": "Caedrel",
+    "team": "Excel Esports",
+    "role": "Jungle",
+    "name": "Marc Robert Lamont",
+    "country": "United Kingdom"
+  },
+  "Caps": {
+    "player": "Caps",
+    "team": "G2 Esports",
+    "role": "Mid",
+    "name": "Rasmus Borregaard Winther",
+    "country": "Denmark"
+  },
+  "Carzzy": {
+    "player": "Carzzy",
+    "team": "MAD Lions",
+    "role": "ADC",
+    "name": "Matyáš Orság",
+    "country": "Czech Republic"
+  },
+  "Comp": {
+    "player": "Comp",
+    "team": "Team Vitality",
+    "role": "ADC",
+    "name": "Markos Stamkopoulos",
+    "country": "Greece"
+  },
+  "Crownshot": {
+    "player": "Crownshot",
+    "team": "SK Gaming",
+    "role": "ADC",
+    "name": "Juš Marušič",
+    "country": "Slovenia"
+  },
+  "Dan Dan": {
+    "player": "Dan Dan",
+    "team": "Misfits Gaming",
+    "role": "Top",
+    "name": "Danny Le Comte",
+    "country": "Spain"
+  },
+  "denyk": {
+    "player": "denyk",
+    "team": "Misfits Gaming",
+    "role": "Support",
+    "name": "Petr Haramach",
+    "country": "Czech Republic"
+  },
+  "Dreams": {
+    "player": "Dreams",
+    "team": "FC Schalke 04 Esports",
+    "role": "Support",
+    "name": "Han Min-kook",
+    "country": "South Korea"
+  },
+  "FEBIVEN": {
+    "player": "FEBIVEN",
+    "team": "Misfits Gaming",
+    "role": "Mid",
+    "name": "Fabian Diepstraten",
+    "country": "Netherlands"
+  },
+  "Finn": {
+    "player": "Finn",
+    "team": "Rogue",
+    "role": "Top",
+    "name": "Finn Wiestål",
+    "country": "Sweden"
+  },
+  "Gilius": {
+    "player": "Gilius",
+    "team": "FC Schalke 04 Esports",
+    "role": "Jungle",
+    "name": "Erberk Demir",
+    "country": "Germany"
+  },
+  "Hans sama": {
+    "player": "Hans sama",
+    "team": "Rogue",
+    "role": "ADC",
+    "name": "Steven Liv",
+    "country": "France"
+  },
+  "Humanoid": {
+    "player": "Humanoid",
+    "team": "MAD Lions",
+    "role": "Mid",
+    "name": "Marek Brázda",
+    "country": "Czech Republic"
+  },
+  "Hylissang": {
+    "player": "Hylissang",
+    "team": "Fnatic",
+    "role": "Support",
+    "name": "Zdravets Iliev Galabov",
+    "country": "Bulgaria"
+  },
+  "Inspired": {
+    "player": "Inspired",
+    "team": "Rogue",
+    "role": "Jungle",
+    "name": "Kacper Słoma",
+    "country": "Poland"
+  },
+  "Jactroll": {
+    "player": "Jactroll",
+    "team": "Origen",
+    "role": "Support",
+    "name": "Jakub Skurzyński",
+    "country": "Poland"
+  },
+  "Jankos": {
+    "player": "Jankos",
+    "team": "G2 Esports",
+    "role": "Jungle",
+    "name": "Marcin Jankowski",
+    "country": "Poland"
+  },
+  "Jenax": {
+    "player": "Jenax",
+    "team": "SK Gaming",
+    "role": "Top",
+    "name": "Janik Bartels",
+    "country": "Germany"
+  },
+  "Kaiser": {
+    "player": "Kaiser",
+    "team": "MAD Lions",
+    "role": "Support",
+    "name": "Norman Kaiser",
+    "country": "Germany"
+  },
+  "Kobbe": {
+    "player": "Kobbe",
+    "team": "Misfits Gaming",
+    "role": "ADC",
+    "name": "Kasper Kobberup",
+    "country": "Denmark"
+  },
+  "Kryze": {
+    "player": "Kryze",
+    "team": "Excel Esports",
+    "role": "Top",
+    "name": "Felix Hellström",
+    "country": "Sweden"
+  },
+  "Labrov": {
+    "player": "Labrov",
+    "team": "Team Vitality",
+    "role": "Support",
+    "name": "Labros Papoutsakis",
+    "country": "Greece"
+  },
+  "Larssen": {
+    "player": "Larssen",
+    "team": "Rogue",
+    "role": "Mid",
+    "name": "Emil Larsson",
+    "country": "Sweden"
+  },
+  "LIMIT": {
+    "player": "LIMIT",
+    "team": "SK Gaming",
+    "role": "Support",
+    "name": "Dino Tot",
+    "country": "Croatia"
+  },
+  "Mikyx": {
+    "player": "Mikyx",
+    "team": "G2 Esports",
+    "role": "Support",
+    "name": "Mihael Mehle",
+    "country": "Slovenia"
+  },
+  "Milica": {
+    "player": "Milica",
+    "team": "Team Vitality",
+    "role": "Mid",
+    "name": "Aljoša Kovandžić",
+    "country": "Serbia"
+  },
+  "Nemesis": {
+    "player": "Nemesis",
+    "team": "Fnatic",
+    "role": "Mid",
+    "name": "Tim Lipovšek",
+    "country": "Slovenia"
+  },
+  "Neon": {
+    "player": "Neon",
+    "team": "FC Schalke 04 Esports",
+    "role": "ADC",
+    "name": "Matúš Jakubčík",
+    "country": "Slovakia"
+  },
+  "Nukeduck": {
+    "player": "Nukeduck",
+    "team": "Origen",
+    "role": "Mid",
+    "name": "Erlend Våtevik Holm",
+    "country": "Norway"
+  },
+  "Odoamne": {
+    "player": "Odoamne",
+    "team": "FC Schalke 04 Esports",
+    "role": "Top",
+    "name": "Andrei Pascu",
+    "country": "Romania"
+  },
+  "Orome": {
+    "player": "Orome",
+    "team": "MAD Lions",
+    "role": "Top",
+    "name": "Andrei Popa",
+    "country": "Romania"
+  },
+  "Patrik": {
+    "player": "Patrik",
+    "team": "Excel Esports",
+    "role": "ADC",
+    "name": "Patrik Jírů",
+    "country": "Czech Republic"
+  },
+  "Perkz": {
+    "player": "Perkz",
+    "team": "G2 Esports",
+    "role": "ADC",
+    "name": "Luka Perković",
+    "country": "Croatia"
+  },
+  "Razork": {
+    "player": "Razork",
+    "team": "Misfits Gaming",
+    "role": "Jungle",
+    "name": "Iván Martín Díaz",
+    "country": "Spain"
+  },
+  "Rekkles": {
+    "player": "Rekkles",
+    "team": "Fnatic",
+    "role": "ADC",
+    "name": "Martin Larsson",
+    "country": "Sweden"
+  },
+  "Selfmade": {
+    "player": "Selfmade",
+    "team": "Fnatic",
+    "role": "Jungle",
+    "name": "Oskar Boderek",
+    "country": "Poland"
+  },
+  "Shad0w": {
+    "player": "Shad0w",
+    "team": "MAD Lions",
+    "role": "Jungle",
+    "name": "Zhiqiang Zhao",
+    "country": "Italy"
+  },
+  "Skeanz": {
+    "player": "Skeanz",
+    "team": "Team Vitality",
+    "role": "Jungle",
+    "name": "Duncan Marquet",
+    "country": "France"
+  },
+  "Special": {
+    "player": "Special",
+    "team": "Excel Esports",
+    "role": "Mid",
+    "name": "Joran Scheffer",
+    "country": "Netherlands"
+  },
+  "Tore": {
+    "player": "Tore",
+    "team": "Excel Esports",
+    "role": "Support",
+    "name": "Tore Hoel Eilertsen",
+    "country": "Norway"
+  },
+  "Trick": {
+    "player": "Trick",
+    "team": "SK Gaming",
+    "role": "Jungle",
+    "name": "Kim Gang-yun",
+    "country": "South Korea"
+  },
+  "Upset": {
+    "player": "Upset",
+    "team": "Origen",
+    "role": "ADC",
+    "name": "Elias Lipp",
+    "country": "Germany"
+  },
+  "Vander": {
+    "player": "Vander",
+    "team": "Rogue",
+    "role": "Support",
+    "name": "Oskar Bogdan",
+    "country": "Poland"
+  },
+  "Wunder": {
+    "player": "Wunder",
+    "team": "G2 Esports",
+    "role": "Top",
+    "name": "Martin Nordahl Hansen",
+    "country": "Denmark"
+  },
+  "Xerxe": {
+    "player": "Xerxe",
+    "team": "Origen",
+    "role": "Jungle",
+    "name": "Andrei Dragomir",
+    "country": "Romania"
+  },
+  "ZaZee": {
+    "player": "ZaZee",
+    "team": "SK Gaming",
+    "role": "Mid",
+    "name": "Dirk Mallner",
+    "country": "Germany"
+  }
+}

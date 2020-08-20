@@ -1,0 +1,28 @@
+{
+  "name": "lec-allstar",
+  "version": "1.0.0",
+  "description": "A handy website to inspect LEC allstar data",
+  "main": "src/index.js",
+  "repository": "https://github.com/jonasgrunert/lec-allstar",
+  "author": "jonasgrunert",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html && cp summer2020.* ./dist"
+  },
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "chart.js": "^2.9.3",
+    "papaparse": "^5.2.0",
+    "preact": "^10.4.7",
+    "preact-helmet": "^4.0.0-alpha-3",
+    "preact-router": "^3.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "browserslist": [
+    "last 2 years"
+  ]
+}
