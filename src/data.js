@@ -184,6 +184,16 @@ export function useVoters() {
   }));
 }
 
+export function usePure() {
+  const { data } = useContext(AllstarData);
+  const { data: players } = useContext(PlayerData);
+  const result = ["Top", "Jungle", "Mid", "ADC", "Support"].map((p) =>
+    useMemo(() => calcPoints(data, p, players, []))
+  );
+  console.log(result);
+  return result;
+}
+
 export function useAffiliation(affiliation) {
   const { data } = useContext(AllstarData);
   const { data: players } = useContext(PlayerData);

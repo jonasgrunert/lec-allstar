@@ -1,6 +1,12 @@
 import { h } from "preact";
 import { useState } from "preact/hooks";
-import { useTeams, useAffiliations, usePlayers, useVoters } from "./data";
+import {
+  useTeams,
+  useAffiliations,
+  usePlayers,
+  useVoters,
+  usePure,
+} from "./data";
 
 export const Navbar = () => {
   const [isActive, setActive] = useState(false);
@@ -95,13 +101,48 @@ export const Navbar = () => {
   );
 };
 
-export const Home = () => (
-  <section class="hero is-dark is-bold is-fullheight-with-navbar">
-    <div class="hero-body has-text-centered" style="justify-content: center;">
-      <h2 class="title is-1">LEC Allstars Summer 2020</h2>
-    </div>
-  </section>
-);
+export const Home = () => {
+  const votes = usePure();
+  return (
+    <section class="hero is-dark is-fullheight-with-navbar">
+      <div
+        class="hero-body"
+        style="justify-content: center; flex-direction: column;"
+      >
+        <div class="columns">
+          <div class="column">
+            <p>
+              <h2 class="title is-1">LEC Allstars Summer 2020</h2>
+            </p>
+          </div>
+        </div>
+        <div class="columns" style="width: 100%">
+          {[1, 2, 3].map((p) => (
+            <div class="column has-text-centered">
+              <h3 class="subtitle">#{p}</h3>
+              <table class="table is-fullwidth has-text-white has-background-dark">
+                <tbody>
+                  {[0, 1, 2, 3, 4].map((pos) => (
+                    <tr>
+                      <td>
+                        <a
+                          href={`/player/${votes[pos][p - 1].id}`}
+                          class="has-text-white"
+                        >
+                          {votes[pos][p].id}
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export const Players = () => {
   const teams = usePlayers();
